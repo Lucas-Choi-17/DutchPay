@@ -1,0 +1,10 @@
+@import "../components/create-account__form_div.css";
+@import "../components/create-account__icon.css";
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
