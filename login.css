@@ -1,17 +1,22 @@
-*{padding: 0; margin: 0;}
+@import "login_header.css";
+@import "login_button.css";
+
+*{padding: 0; margin: 2px;}
 .body {
+  width: 50%;
+  height: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  
+  border:solid;
+  border-radius: 10px;
   }
 
-.header{
-  font-weight: bold;
-}
-
-.login_button{
-  text-align: center;
-   width: 190px;
+  @media screen and (max-width: 700px) {
+    .body {
+      height: 60%;
+    }
   }
