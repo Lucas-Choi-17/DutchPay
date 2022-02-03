@@ -2,13 +2,13 @@
 @import "../components/create-account__form.css";
 
 .create-account__div {
-  width: 60%;
-  height: 70%;
+  width: 910px;
+  height: 500px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   /* decoration */
-  border: solid 3px black;
+  border: solid 2px black;
   border-radius: 20px;
 }
 
