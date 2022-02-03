@@ -1,23 +1,27 @@
+@import "reset.css";
 @import "login_header.css";
-@import "login_button.css";
-@import "login_input_button.css";
-
-*{padding: 0; margin: 2px;}
-.body {
-  width: 50%;
-  height: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@import "login-form.css";
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-screen {
+  width: 910px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  
-  border:solid;
-  border-radius: 10px;
-  }
+}
 
-  @media screen and (max-width: 700px) {
-    .body {
-      height: 61%;
-    }
+@media screen and (max-width: 1000px) {
+  .main-screen {
+    width: 450px;
+    justify-content: center;
+    align-items: center;
   }
+}
