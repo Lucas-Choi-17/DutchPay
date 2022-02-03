@@ -1,0 +1,27 @@
+.create-account__form {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.create-account__input {
+  width: 250px;
+  font-size: 20px;
+  padding: 5px 0;
+}
+.create-account__form input:nth-child(2) {
+  margin-left: 20px;
+}
+.create-account__submit {
+  align-self: flex-end;
+  margin-top: 20px;
+  width: 80px;
+  font-size: 20px;
+  padding: 5px;
+}
+.create-account__input:focus {
+  border: 2px solid blue;
+}
+.create-account__input:focus::placeholder {
+  color: blue;
+}
