@@ -1,0 +1,14 @@
+@import url("../components/create-account__div.css") only screen and
+  (min-width: 1000px);
+@import url("../components/create-account__icon.css") only screen and
+  (min-width: 1000px);
+@import "../reset.css";
+@import url("../components/create-account__small.css") not all and
+  (min-width: 1000px);
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}

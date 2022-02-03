@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/screens/create-account.css" />
+    <meta charset="UTF-8" />
+    <title>Create Account</title>
+</head>
+
+<body>
+    <div class="create-account__div">
+        <div>
+            <header class="create-account__header">Create Account</header>
+            <form class="create-account__form" action="login.html" method="get">
+                <div>
+                    <input class="create-account__input" type="text" required placeholder="First name" />
+                    <input class="create-account__input" type="text" required placeholder="Last name" />
+                </div>
+                <div>
+                    <input class="create-account__input" type="email" required placeholder="E-mail" />
+                    <input class="create-account__input" type="tel" required placeholder="Phone number"
+                        pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" />
+                </div>
+                <input class="create-account__input" type="text" required placeholder="Username" />
+                <div>
+                    <input class="create-account__input" type="password" required placeholder="Password"
+                        minlength="10" />
+                    <input class="create-account__input" type="password" required placeholder="Confirm" />
+                </div>
+                <input class="create-account__submit" type="submit" placeholder="Register" />
+            </form>
+        </div>
+        <i class="fas fa-user-shield user-shield_mycustom"></i>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+
+</html>

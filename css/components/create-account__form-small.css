@@ -1,0 +1,12 @@
+@import url("create-account__form.css");
+.create-account__form {
+  justify-content: center;
+  height: auto !important;
+}
+.create-account__form div {
+  display: flex;
+  flex-direction: column;
+}
+.create-account__input {
+  margin: 5px 0 !important;
+}
