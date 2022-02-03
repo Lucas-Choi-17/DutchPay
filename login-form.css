@@ -1,0 +1,16 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-form input {
+  width: 250px;
+  font-size: 20px;
+  padding: 5px 0;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+.login-form input[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
